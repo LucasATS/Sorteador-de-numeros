@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Sorteador-de-numeros/static/css/main.1623e40e.css",
+    "main.js": "/Sorteador-de-numeros/static/js/main.8012ea0a.js",
+    "static/media/img(3).jpg": "/Sorteador-de-numeros/static/media/img(3).f6a7cb7872d9336d13f6.jpg",
+    "index.html": "/Sorteador-de-numeros/index.html",
+    "main.1623e40e.css.map": "/Sorteador-de-numeros/static/css/main.1623e40e.css.map",
+    "main.8012ea0a.js.map": "/Sorteador-de-numeros/static/js/main.8012ea0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1623e40e.css",
+    "static/js/main.8012ea0a.js"
+  ]
+}

@@ -14,6 +14,7 @@ versão: 221023
 [ACESSAR SITE](https://lucasats.github.io/Sorteador-de-numeros/)
 
 > npm start
+> npm run deploy
 
 ## __🎯 METAS__
 - [ ] Remover bugs.

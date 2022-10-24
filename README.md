@@ -10,8 +10,8 @@ versão: 221023
     INSPIRADO EM: sorteador.com.br/
     IMAGENS DE FUNDO FORAM EXTRAIDOS DO SITE: wall.alphacoders.com
 
-[![preview](./.github/preview.png)](https://lucasats.github.io/LINK/)
-[ACESSAR SITE](https://lucasats.github.io/LINK/)
+[![preview](./preview.png)](https://lucasats.github.io/Sorteador-de-numeros/)
+[ACESSAR SITE](https://lucasats.github.io/Sorteador-de-numeros/)
 
 > npm start
 

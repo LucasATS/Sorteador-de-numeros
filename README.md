@@ -11,7 +11,7 @@ versão: 221023
     IMAGENS DE FUNDO FORAM EXTRAIDOS DO SITE: wall.alphacoders.com
 
 [![preview](./preview.png)](https://lucasats.github.io/Sorteador-de-numeros/)
-[ACESSAR SITE](https://lucasats.github.io/Sorteador-de-numeros/)
+[🔗 ACESSE O PROJETO ](https://lucasats.github.io/Sorteador-de-numeros/)
 
 > npm start
 > npm run deploy

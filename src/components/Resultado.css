@@ -1,0 +1,14 @@
+h2 {
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #fffb00;
+    padding: 5px;
+    width: auto;
+
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}

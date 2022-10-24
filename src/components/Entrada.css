@@ -1,0 +1,52 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: space-around;
+    gap: 10px;
+}
+
+div {
+    width: 250px;
+}
+
+label {
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #333333;
+    padding: 5px;
+}
+
+input[type="number"], input[type="button"] {
+    box-shadow: inset 0px 1px 1px 0px #ffffff;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    padding: 16px 20px;
+    background-color: #f9f9f9;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #333333;
+}
+
+input[type="button"] {
+    background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+    display: inline-block;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+    background-color: #e9e9e9;
+}
+
+input[type="button"]:active {
+    position: relative;
+    top: 1px;
+}

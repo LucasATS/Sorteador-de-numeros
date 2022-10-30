@@ -3,36 +3,47 @@ import { React, useState } from "react"
 import Resultado from './Resultado';
 import Aleatorio from '../Aleatorio';
 import Entrada from './Entrada';
+import Relogio from './Relogio';
 
 function App() {
   const [Numeros, SetNumeros] = useState([]);
   const [qntSorteios, setQntSorteios] = useState(1);
   const [de, setDe] = useState(1);
-  const [ate, setAte] = useState(100);
+  const [ate, setAte] = useState(10);
 
-  const Sortear = () => {SetNumeros(Aleatorio(de, ate + 1, qntSorteios - 1));}
+  const Sortear = () => { SetNumeros(Aleatorio(de, ate, qntSorteios)); }
 
-  const Regras = valor => (100 < valor && (valor = 100), 1 > valor && (valor = 1), valor);
+  // Se um valor for maior que 100 ele retornara 100
+  const Regras = valor => (100 < valor && (valor = 100), 0 > valor && (valor = 0), valor);
 
   return (
-    <div className='painel'>
-      <form className='glass'>
-        <Entrada txt="Sorteios" defValue={1} txthelp="Quantidade de sorteios"
-          onChange={(evt) => { setQntSorteios(Regras(evt.target.value)) }} />
+    <div>
 
-        <Entrada txt="De" defValue={1} txthelp="Valor mínimo"
-          onChange={(evt) => { setDe(Regras(evt.target.value)) }} />
+      <div className='painel'>
+        <form className='glass'>
+          <Entrada txt="Sorteios" defValue={1} txthelp="Quantidade de sorteios"
+            onChange={(evt1) => { setQntSorteios(Regras(evt1.target.value)) }} />
 
-        <Entrada txt="Até" defValue={100} txthelp="Valor mínimo"
-          onChange={(evt) => { setAte(Regras(evt.target.value)) }} />
+          <Entrada txt="De" defValue={1} txthelp="Valor mínimo"
+            onChange={(evt2) => { setDe(Regras(evt2.target.value)) }} />
 
-        <input onClick={() => Sortear()} type="button" value="SORTEAR NÚMERO" />
-      </form>
+          <Entrada txt="Até" defValue={10} txthelp="Valor máximo"
+            onChange={(evt3) => { setAte(Regras(evt3.target.value)) }} />   
 
-      <div className='glass row'>
-        <Resultado valores={Numeros} />
+          <input onClick={() => Sortear()} type="button" value="SORTEAR NÚMERO" />
+        </form>
+
+        <div className='glass row'>
+          <Resultado valores={Numeros} />
+        </div>
       </div>
+
+      <div className='Relogio glass row'>
+        <Relogio />
+      </div>
+
     </div>
+
   );
 }
 

@@ -1,10 +1,28 @@
 function Aleatorio(de, ate, quant) {
+  /*
+    de = min
+    ate = max
+    quant = valores para sortear
+  */
+
+  de = parseInt(de);
+  ate = parseInt(ate) + 1;
+  quant = parseInt(quant) - 1;
+
   let results = [];
 
   for (let index = 0; index <= quant; index++) {
-    let valor = Math.floor(Math.random() * (ate - de) + de);
+    var sort = Math.random(), valor = Math.floor(sort * (ate - de)) + de;
     results.push(valor);
   }
+
+  // LOG
+  console.log(
+    'de: ' + de + '\n' +
+    'ate: ' + ate + '\n' +
+    'quant: ' + quant + '\n' +
+    'results: ' + results
+  );
 
   return results;
 }

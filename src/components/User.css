@@ -1,29 +1,15 @@
-.nav-Painel {
+.user-painel {
     padding: 5px;
-
+  
     position: fixed;
-    left: 10px;
-    top: 10px;
-
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  
     text-align: center;
-    z-index: 1;
-}
+    z-index: 0;
+  }
 
-.nav-a:link,
-.nav-a:visited {
-    background-color: #ffffff00;
-    font-size: 16px;
-    color: #333333;
-    font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 12px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 16px;
-}
-
-.nav-a:hover,
-.nav-a:active {
-    background-color: #ffffff65;
+.h1, .h3 {
+    margin: 5px;
 }

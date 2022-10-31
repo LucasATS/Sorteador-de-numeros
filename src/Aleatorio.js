@@ -16,13 +16,12 @@ function Aleatorio(de, ate, quant) {
     results.push(valor);
   }
 
-  // LOG
-  console.log(
-    'de: ' + de + '\n' +
-    'ate: ' + ate + '\n' +
-    'quant: ' + quant + '\n' +
-    'results: ' + results
-  );
+  // console.log(
+  //   'de: ' + de + '\n' +
+  //   'ate: ' + ate + '\n' +
+  //   'quant: ' + quant + '\n' +
+  //   'results: ' + results
+  // );
 
   return results;
 }

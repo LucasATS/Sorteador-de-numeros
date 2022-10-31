@@ -25,7 +25,7 @@ function Relogio() {
 
   return (
 
-    <h2 className='digital'> {hora}:{minuto}:{segundo} </h2>
+    <h2 className='digital col'> {hora}:{minuto}:{segundo} </h2>
 
   );
 }

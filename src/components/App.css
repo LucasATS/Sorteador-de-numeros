@@ -31,6 +31,18 @@
   align-items: center;
 }
 
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left {
+  justify-items: left;
+  text-align: left;
+  align-items: left;
+}
+
 .Relogio{
   left: 20%;
   bottom: 0%;

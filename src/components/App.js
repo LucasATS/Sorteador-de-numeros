@@ -19,8 +19,8 @@ function App() {
   return (
     <div>
 
-      <div className='painel'>
-        <form className='glass'>
+      <div className='painel glass'>
+        <form>
           <Entrada txt="Sorteios" defValue={1} txthelp="Quantidade de sorteios"
             onChange={(evt1) => { setQntSorteios(Regras(evt1.target.value)) }} />
 
@@ -33,12 +33,12 @@ function App() {
           <input onClick={() => Sortear()} type="button" value="SORTEAR NÚMERO" />
         </form>
 
-        <div className='glass row'>
+        <div>
           <Resultado valores={Numeros} />
         </div>
       </div>
 
-      <div className='Relogio glass row'>
+      <div className='Relogio glass col'>
         <Relogio />
       </div>
 

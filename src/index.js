@@ -10,7 +10,7 @@ import Relogio from './components/Relogio';
 import User from './components/User';
 
 const painelRelogio = () => {
-  return <div className='painel glass row'>
+  return <div className='painel glass col'>
     <Relogio />
   </div>
 };
@@ -21,7 +21,7 @@ root.render(
     <Routes>
       <Route path="/" element={<Nav />}>
         <Route index element={<App />} />
-        <Route path="Relogio" element={painelRelogio} />
+        <Route path="Relogio" element={painelRelogio()} />
         <Route path="User" element={<User />} />
       </Route>
     </Routes>

@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import React from 'react';
 
@@ -17,7 +17,7 @@ const painelRelogio = () => {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<Nav />}>
         <Route index element={<App />} />
@@ -25,5 +25,5 @@ root.render(
         <Route path="User" element={<User />} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );

@@ -1,13 +1,12 @@
 # 🍀 SORTEADOR DE NÚMEROS 🍀
 
-## Um modelo de site feito em React para sortear números aleatórios. Inspirado no site sorteador.com.br
+## Um modelo de site feito em React para sortear números aleatórios.
 
 versão: 221030
 
 ## Ajude-nos, a melhorar o site 🤩❤️ 
 
     FEITO POR: https://github.com/LucasATS
-    INSPIRADO EM: sorteador.com.br/
     IMAGENS DE FUNDO FORAM EXTRAIDOS DO SITE: wall.alphacoders.com
 
 [![preview](./preview.png)](https://lucasats.github.io/Sorteador-de-numeros/)
@@ -16,9 +15,13 @@ versão: 221030
 > npm start
 > npm run deploy
 
+> Instale: npm install axios e npm i -D react-router-dom
+
 ## __🎯 METAS__
-- [ ] Remover bugs.
+- [X] 🕗 Add relógio.
+- [X] Remover bugs.
 - [ ] Sortear nomes.
+  - [x] Ler Json com nomes
 - [ ] SEO.
 - [X] Adição de estilo e interface gráfica.
 - [x] Montagem básica.

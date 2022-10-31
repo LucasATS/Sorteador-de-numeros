@@ -22,7 +22,7 @@ versão: 221030
 - [X] Remover bugs.
 - [ ] Sortear nomes.
   - [x] Ler Json com nomes
-- [ ] SEO.
+- [X] SEO.
 - [X] Adição de estilo e interface gráfica.
 - [x] Montagem básica.
 

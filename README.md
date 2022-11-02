@@ -2,7 +2,7 @@
 
 ## Um modelo de site feito em React para sortear números aleatórios.
 
-versão: 221030
+versão: 221101
 
 ## Ajude-nos, a melhorar o site 🤩❤️ 
 

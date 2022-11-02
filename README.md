@@ -13,11 +13,13 @@ versão: 221030
 [🔗 ACESSE O PROJETO ](https://lucasats.github.io/Sorteador-de-numeros/)
 
 > npm start
+
 > npm run deploy
 
 > Instale: npm install axios e npm i -D react-router-dom
 
 ## __🎯 METAS__
+- [X] Deploy usando o npm build
 - [X] 🕗 Add relógio.
 - [X] Remover bugs.
 - [ ] Sortear nomes.

@@ -12,6 +12,7 @@ versão: 221101
 [![preview](./preview.png)](https://lucasats.github.io/Sorteador-de-numeros/)
 [🔗 ACESSE O PROJETO ](https://lucasats.github.io/Sorteador-de-numeros/)
 
+## __📂 PLAY__
 > npm start
 
 > npm run deploy
